@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL Master Service</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.php">
+            <picture>
+                <source media="(max-width: 1155px )" srcset="favicon.png">
+                <img src="logo.png" alt="Logo AL Master">
+            </picture>
+        </a>
+
+        <nav class="nav-menu">
+            <a href="#sobre">Sobre nós</a>
+            <a href="#atividades">Principais atividades</a>
+            <a href="#carteiras">Carteiras administradas</a>
+            <a href="#track-record">Track Record</a>
+            <a href="#seguranca">Segurança</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="sobre">
+            <h1>Sobre nós</h1>
+            <article>
+                <p>A AL Master foi estruturada com foco em Master Service para gestão de carteiras pulverizadas de cobrança, soluções de administração de imóveis, gestão jurídica e contratos.</p>
+                <p>Contamos com uma equipe sênior, multidisciplinar, com vasta experiência em gestão de carteiras de cobrança, securitização e FIDCs, precificação, planejamento, administração jurídica, gestão de imóveis e soluções diferenciadas.</p>
+            </article>
+        </section>
+
+        <section id="atividades">
+            <h1>Principais atividades</h1>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Gestão de cobrança</h3>
+                    <p>Cobrança própria e em parceria com empresas terceiras para obter os melhores resultados com qualidade.</p>
+                </div>
+                <div class="card">
+                    <h3>Gestão de garantias</h3>
+                    <p>Gestão completa de garantias com soluções de vendas, locações, administração de pagamentos e mais.</p>
+                </div>
+                <div class="card">
+                    <h3>Perfil do cliente</h3>
+                    <p>O perfil de cada cliente é avaliado individualmente para identificar as melhores condições de pagamento.</p>
+                </div>
+                <div class="card">
+                    <h3>Carteira alienada</h3>
+                    <p>Gestão de contratos alienados com fluxo da cobrança amigável, incluindo negociação e retomada.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="carteiras">
+            <h1>Nossas carteiras administradas</h1>
+            <div>
+                <span class="bloco">
+                    <h4>+750 mil</h4>
+                    <p>contratos</p>
+                </span>
+                <span class="bloco">
+                    <h4>+450 mil</h4>
+                    <p>CPFs</p>
+                </span>
+                <span class="bloco">
+                    <h4>+60mil</h4>
+                    <p>CNPJs</p>
+                </span>
+            </div>
+        </section>
+
+        <section id="track-record">
+            <h1>Track Record da Equipe</h1>
+            <article>
+                <p>Nosso time sênior possui um longo histórico de gestão bem-sucedida de carteiras pulverizadas inadimplentes, com ou sem garantia real, de devedores pessoas físicas e jurídicas.</p>
+            </article>
+            <ul>
+                <li>+20 anos de experiência no mercado.</li>
+                <li>Implementação de projetos de sucesso no Brasil e exterior.</li>
+                <li>Criação e gestão de sistemas de alto padrão de segurança.</li>
+                <li>Histórico de sucesso em carteiras pulverizadas e gestão imobiliária.</li>
+            </ul>
+        </section>
+
+        <section id="seguranca">
+            <h1>Segurança e Sistemas</h1>
+            <article>
+                <p>Utilizamos as principais ferramentas do mercado, com alta tecnologia, controles customizados e inteligência artificial para otimizar o contato.</p>
+            </article>
+            <ul>
+                <li>Segurança com padrão bancário.</li>
+                <li>Sistemas de Master, CRM e gestão com tecnologia de ponta.</li>
+                <li>Aderência total à LGPD.</li>
+                <li>Inteligência para localização de clientes e avaliação de patrimônio.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+
+            <div class="container-form">
+                <form action="Contato.php" method="get">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto" id="assunto">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Tenho dúvidas</option>
+                        <option>Solicito contato</option>
+                        <option>Quero contratar os serviços</option>
+                        <option>Quero negociar minha dívida</option>
+                    </select>
+                    <label for="msg">Mensagem</label>
+                    <textarea name="msg" id="msg"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <div class="container-contato">
+                <a href="mailto:contato@almaster.com.br" class="btn">contato@almaster.com.br</a>
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn"> +55 11 99999-9999</a>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <a href="index.php">
+            <picture>
+                <source media="(max-width: 500px )" srcset="favicon.png">
+                <img src="logo.png" alt="Logo AL Master">
+            </picture>
+        </a>
+        <p><em><small>AL Master Service</small></em></p>
+    </footer>
+
+</body>
+
+</html>
