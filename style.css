@@ -234,7 +234,7 @@ form > label {
 
 
 form > input, select, option {
-    background-color: var(--cor1);
+    /* background-color: var(--cor1); */
     color: var(--cor5);
     margin: 5px 0px 5px 1px;
     border: 1px solid black;
@@ -245,7 +245,7 @@ form > input, select, option {
 }
 
 form > textarea {
-    background-color: var(--cor1);
+    /* background-color: var(--cor1); */
     color: var(--cor5);
     font-weight: bold;
     border: 1px solid black;
@@ -279,7 +279,7 @@ input[type="submit"]:hover {
 
 
 input:focus, textarea:focus, select:focus, option:focus {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
 }
 
 
