@@ -30,7 +30,9 @@ header {
     left: 0;
     z-index: 1000;
     padding: 10px 0;
+    line-height: 1;
 }
+
 
 body {
     padding-top: 80px;
@@ -38,12 +40,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    line-height: 1.2;
-    margin: auto;
 }
 
 main {
     max-width: 650px;
+    width: 100%;
+    flex-grow: 1;
     align-self: center;
     color: var(--cor1);
 }
@@ -62,11 +64,10 @@ section {
 
 
 article {
-    justify-items: center;
     text-align: justify;
-    max-width: 650px;
     font-weight: 400;
     text-indent: 32px;
+    margin: 10px;
 }
 
 footer {
@@ -99,8 +100,11 @@ h4 {
 p {
     color: var(--cor1);
     padding: 1px 0px 10px 0px;
-    margin: 10px 30px;
+    margin: 10px;
     text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    word-spacing: 1.2px;
+    line-height: 1.3em;
 }
 
 ul {
@@ -155,6 +159,7 @@ li {
 footer>p {
     color: var(--cor4);
     text-shadow: 1px 1px 1px var(--cor5);
+    text-align: center;
 }
 
 .nav-menu {
@@ -215,7 +220,8 @@ button:hover {
     margin-top: 30px;
     border-radius: 5px;
     box-shadow: 0.2px 0.2px 5px 0.2px black;
-    width: 50%;
+    min-width: 300px;
+    max-width: 350px;
     padding: 10px;
 }
 
@@ -258,8 +264,9 @@ form > textarea {
 }
 
 input[type="submit"] {
-    display: flex;
+    display: block;
     justify-self: center;
+    margin: 10px auto;
     width: 30%;
     background-color: var(--cor1);
     color: var(--cor5);
@@ -274,7 +281,7 @@ input[type="submit"]:hover {
 .container-contato {
     padding: 70px;
     margin: 10px;
-    flex: block;
+    display: block;
 }
 
 
@@ -291,3 +298,15 @@ input:focus, textarea:focus, select:focus, option:focus {
     box-shadow: 1px 1px 1px 1px black;
     padding: 20px;
 }
+
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 200px;
+    }
+    
+}
+
+
+
+
