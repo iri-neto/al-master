@@ -35,7 +35,7 @@ header {
 
 
 body {
-    padding-top: 80px;
+    padding-top: 100px;
     background: linear-gradient(135deg, var(--cor2) 0%, var(--cor3) 50%, var(--cor2) 100%);
     min-height: 100vh;
     display: flex;
@@ -207,6 +207,7 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -281,8 +282,12 @@ input[type="submit"]:hover {
 .container-contato {
     padding: 70px;
     margin: 10px;
-    display: block;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 
 
 input:focus, textarea:focus, select:focus, option:focus {
