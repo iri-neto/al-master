@@ -212,6 +212,7 @@ button:hover {
     align-items: center;
     white-space: nowrap;
     justify-content: center;
+    min-width: max-content;
 }
 
 .btn:hover {
