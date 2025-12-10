@@ -307,7 +307,7 @@ input:focus, textarea:focus, select:focus, option:focus {
 
 @media (max-width: 600px) {
     body {
-        padding-top: 250px;
+        padding-top: 200px;
     }
     
 }
