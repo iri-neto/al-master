@@ -208,6 +208,7 @@ button:hover {
     border-radius: 10px;
     font-weight: bold;
     display: inline-block;
+    margin: 10px;
 }
 
 .btn:hover {
@@ -282,7 +283,6 @@ input[type="submit"]:hover {
 .container-contato {
     padding: 70px;
     margin: 10px;
-    gap: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
