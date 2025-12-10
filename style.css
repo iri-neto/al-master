@@ -207,9 +207,11 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
-    display: inline-block;
+    display: inline-flex;
     margin: 10px;
+    align-items: center;
     white-space: nowrap;
+    justify-content: center;
 }
 
 .btn:hover {
