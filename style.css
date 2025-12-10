@@ -209,6 +209,7 @@ button:hover {
     font-weight: bold;
     display: inline-block;
     margin: 10px;
+    white-space: nowrap;
 }
 
 .btn:hover {
